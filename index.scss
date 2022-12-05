@@ -5,12 +5,20 @@ $back-color: #EDF2F6;
 $font-stack: 'Circe';
 $blue-text: #0291EB;
 
-
 body{
-font: $font-stack;
-background-color: $back-color;
+font-family: $font-stack !important;
+
+}
+
+.grey-box{
+background-color: $back-color;    
 }
 
 .blue-text{
     color: $blue-text;
+}
+
+.grey-text{
+    color: #6C6C6C;
+    ;
 }

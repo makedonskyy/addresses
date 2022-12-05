@@ -1,14 +1,11 @@
 @import url(//db.onlinewebfonts.com/c/0373adad7b4c1a926865084f2f8fab7f?family=Circe);
-
 @font-face {
   font-family: "Circe";
   src: url("//db.onlinewebfonts.com/t/0373adad7b4c1a926865084f2f8fab7f.eot");
   src: url("//db.onlinewebfonts.com/t/0373adad7b4c1a926865084f2f8fab7f.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/0373adad7b4c1a926865084f2f8fab7f.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/0373adad7b4c1a926865084f2f8fab7f.woff") format("woff"), url("//db.onlinewebfonts.com/t/0373adad7b4c1a926865084f2f8fab7f.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/0373adad7b4c1a926865084f2f8fab7f.svg#Circe") format("svg");
 }
-
 body {
   font-family: "Circe" !important;
-
 }
 
 .grey-box {
@@ -17,6 +14,10 @@ body {
 
 .blue-text {
   color: #0291EB;
+}
+
+.grey-text {
+  color: #6C6C6C;
 }
 
 /*# sourceMappingURL=index.css.map */
