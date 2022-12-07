@@ -13,6 +13,10 @@ body {
   color: #0291EB;
 }
 
+.line-color {
+  background-color: #0291EB;
+}
+
 .grey-text {
   color: #6C6C6C;
 }
