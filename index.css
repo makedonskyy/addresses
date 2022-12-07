@@ -31,4 +31,37 @@ body {
   height: inherit;
 }
 
+.check-input {
+  font-size: 13px;
+  color: #6C6C6C;
+}
+
+.input-grey {
+  background-color: #EDF2F6 !important;
+}
+
+.btn-primary,
+.btn-primary:hover,
+.btn-primary:active,
+.btn-primary:visited {
+  background-color: #FF1784 !important;
+  border-color: #FF1784 !important;
+  font-family: "Circe" !important;
+  width: 154px !important;
+  height: 49px !important;
+}
+
+.big-input {
+  height: 133px;
+}
+
+.mini-weigth {
+  font-size: 13px !important;
+  font-family: "Circe" !important;
+}
+
+.border-blue {
+  border-color: #0291EB !important;
+}
+
 /*# sourceMappingURL=index.css.map */
