@@ -68,4 +68,15 @@ body {
   border-color: #0291EB !important;
 }
 
+.address-card-main {
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: auto auto;
+}
+
+.address-card-one {
+  width: 540px;
+  display: block;
+}
+
 /*# sourceMappingURL=index.css.map */

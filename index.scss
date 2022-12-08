@@ -75,3 +75,14 @@ body {
 .border-blue {
     border-color: $blue-text !important;
 }
+
+.address-card-main {
+    display: grid;
+    grid-auto-flow: row;
+    grid-template-columns: auto auto;
+}
+
+.address-card-one {
+    width: 540px;
+    display: block;
+}
