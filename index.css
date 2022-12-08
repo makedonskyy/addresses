@@ -68,15 +68,42 @@ body {
   border-color: #0291EB !important;
 }
 
-.address-card-main {
+.address-list-card-main {
   display: grid;
   grid-auto-flow: row;
-  grid-template-columns: auto auto;
+  grid-template-columns: 1fr 1fr;
 }
 
-.address-card-one {
-  width: 540px;
-  display: block;
+.address-list-card-one {
+  min-width: 100%;
+}
+
+.min-name {
+  min-height: 72px;
+}
+
+.first-line, .second-line, .third-line {
+  width: 100%;
+}
+
+.card-line {
+  width: 90%;
+  margin-top: 2rem;
+}
+
+@media only screen and (max-width: 992px) {
+  .mobile-view, .first-line {
+    display: none !important;
+  }
+  .second-line, .third-line {
+    width: 100%;
+  }
+  .address-list-card-main {
+    grid-template-columns: 1fr;
+  }
+  .address-list-card-one {
+    min-width: 100%;
+  }
 }
 
 /*# sourceMappingURL=index.css.map */
