@@ -78,6 +78,16 @@ body {
   min-width: 100%;
 }
 
+.address-block-card-main {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.address-block-card-one {
+  border: 1px solid #0291EB;
+}
+
 .min-name {
   min-height: 72px;
 }
