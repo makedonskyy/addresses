@@ -92,36 +92,42 @@ body {
     grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 
-.address-block-card-one{
+.address-block-card-one {
     // min-width: 100%;
     border: 1px solid $blue-text;
 }
 
-.min-name{
+.min-name {
     min-height: 72px;
 }
 
-.first-line, .second-line, .third-line{
+.first-line,
+.second-line,
+.third-line {
     width: 100%;
-  }
+}
 
-  .card-line{
+.card-line {
     width: 90%;
     margin-top: 2rem;
-  }
+}
 
-  @media only screen and (max-width: 992px) {
-    .mobile-view, .first-line{
-      display: none !important;
+@media only screen and (max-width: 992px) {
+
+    .mobile-view,
+    .first-line {
+        display: none !important;
     }
-    .second-line, .third-line{
-      width: 100%;
+
+    .second-line,
+    .third-line {
+        width: 100%;
     }
 
     .address-list-card-main {
         grid-template-columns: 1fr;
     }
-    
+
     .address-list-card-one {
         min-width: 100%;
     }
@@ -129,18 +135,18 @@ body {
     .address-block-card-main {
         grid-template-columns: 1fr 1fr;
     }
-    
+
     .address-list-card-main {
         display: none;
     }
-    
+
     .map {
         height: 356px;
     }
 
-  }
+}
 
-  @media only screen and (max-width: 530px) {
+@media only screen and (max-width: 530px) {
     .map {
         height: 186px;
     }
@@ -149,4 +155,4 @@ body {
         grid-template-columns: 1fr;
     }
 
-  }
+}
