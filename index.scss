@@ -125,6 +125,14 @@ body {
     .address-list-card-one {
         min-width: 100%;
     }
+
+    .address-block-card-main {
+        grid-template-columns: 1fr 1fr;
+    }
+    
+    .address-list-card-main {
+        display: none;
+    }
     
     .map {
         height: 356px;
@@ -136,4 +144,9 @@ body {
     .map {
         height: 186px;
     }
+
+    .address-block-card-main {
+        grid-template-columns: 1fr;
+    }
+
   }
