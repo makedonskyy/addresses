@@ -115,5 +115,14 @@ body {
         min-width: 100%;
     }
     
+    .map {
+        height: 356px;
+    }
 
+  }
+
+  @media only screen and (max-width: 530px) {
+    .map {
+        height: 186px;
+    }
   }
