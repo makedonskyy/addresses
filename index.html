@@ -627,38 +627,19 @@
                 <div class="box pt-3">
                     <div class="row row-cols-lg-12">
                         <!-- поиск -->
-                        <div class="col col-12 col-lg-8 form-floating">
-                                <input type="text" class="form-control rounded-pill border-blue input-grey" id="searching"
+                        <div class="col col-12 col-lg-10 form-floating me-5">
+                                <input type="text" class="form-control rounded-pill border-blue input-grey w-75" id="searching"
                                 placeholder="Поиск">
                                 <label class="mx-5 fs-4 blue-text fw-bold" for="searching">Поиск</label>   
                         </div>
-                        <div class="col-lg-3 d-grid justify-content-md-end px-0">
-                            <div class="row row-cols-2 mt-3 mobile-view px-0">
-
-                                <img src="./public/Group 415.svg" id="string-btn"/>
-                                <!-- <svg width="37" height="37" fill="none"  xmlns="http://www.w3.org/2000/svg">
-                                    <g filter="url(#filter0_i_891_631)" fill="#039BE5">
-                                        <rect width="36.939" height="11.152" rx="2" />
-                                        <rect y="13.242" width="36.939" height="10.454" rx="2" />
-                                        <rect y="25.788" width="36.939" height="11.152" rx="2" />
-                                    </g>
-                                    <defs>
-                                        <filter id="filter0_i_891_631" x="0" y="0" width="37.94" height="39.939"
-                                            filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-                                            <feFlood flood-opacity="0" result="BackgroundImageFix" />
-                                            <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape" />
-                                            <feColorMatrix in="SourceAlpha"
-                                                values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha" />
-                                            <feOffset dx="1" dy="3" />
-                                            <feGaussianBlur stdDeviation="2" />
-                                            <feComposite in2="hardAlpha" operator="arithmetic" k2="-1" k3="1" />
-                                            <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0" />
-                                            <feBlend in2="shape" result="effect1_innerShadow_891_631" />
-                                        </filter>
-                                    </defs>
-                                </svg> -->
-
-                                <img src="./public/Group 414.svg" id="block-btn"/>
+                        <div class="col-lg-2 d-grid"  style="max-width: 120px;">
+                            <div class="row row-cols-2 mt-3 mobile-view" style="max-width: 100px;">
+                                <svg id="string-btn" width="37" height="37" class="active-btn px-0">
+                                    <use xlink:href="./public/sprite.svg#btn-string"></use>
+                                </svg>
+                                <svg id="block-btn" width="37" height="37" class="grey-btn px-0">
+                                    <use xlink:href="./public/sprite.svg#btn-block"></use>
+                                </svg>
                             </div>
                         </div>
 
