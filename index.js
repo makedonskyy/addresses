@@ -1,20 +1,30 @@
-let block = document.getElementById('block')
-let string = document.getElementById('string')
+const block = document.getElementById('block')
+const string = document.getElementById('string')
 
-let btnString = document.getElementById('string-btn')
-let btnBlock = document.getElementById('block-btn')
+const btnString = document.getElementById('string-btn')
+const btnBlock = document.getElementById('block-btn')
+
+const mediumBreakpoint = 992
+
+if (window.innerWidth <= mediumBreakpoint) {
+    block.classList.remove('d-none')
+    string.classList.add('d-none')
+    btnString.classList.replace('active-btn', 'grey-btn')
+    btnBlock.classList.replace('grey-btn', 'active-btn')
+} else {
+    block.classList.add('d-none')
+}
+
 
 btnString.addEventListener('click', function () {
     if (!block.classList.contains('d-none')) {
         block.classList.add('d-none')
         string.classList.remove('d-none')
         if (btnString.classList.contains('grey-btn')) {
-            btnString.classList.remove('grey-btn')
-            btnString.classList.add('active-btn')
+            btnString.classList.replace('grey-btn', 'active-btn')
+            btnBlock.classList.replace('active-btn', 'grey-btn')
         }
     }
-    btnBlock.classList.remove('active-btn')
-    btnBlock.classList.add('grey-btn')
 })
 
 btnBlock.addEventListener('click', function () {
@@ -22,10 +32,8 @@ btnBlock.addEventListener('click', function () {
         string.classList.add('d-none')
         block.classList.remove('d-none')
         if (btnBlock.classList.contains('grey-btn')) {
-            btnBlock.classList.remove('grey-btn')
-            btnBlock.classList.add('active-btn')
+            btnBlock.classList.replace('grey-btn', 'active-btn')
+            btnString.classList.replace('active-btn', 'grey-btn')
         }
     }
-    btnString.classList.remove('active-btn')
-    btnString.classList.add('grey-btn')
 })
