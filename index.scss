@@ -14,6 +14,7 @@ $pink-color: #FF1784;
 body {
     font-family: $font-stack !important;
     background-color: $back-color !important;
+
 }
 
 .blue-text {
@@ -29,7 +30,7 @@ body {
 }
 
 .map {
-    display: flex;
+    display: block;
     align-items: center;
     height: 596px;
     position: relative;

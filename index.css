@@ -7,6 +7,7 @@
 body {
   font-family: "Circe" !important;
   background-color: #EDF2F6 !important;
+  overflow-x: hidden !important;
 }
 
 .blue-text {
@@ -22,7 +23,7 @@ body {
 }
 
 .map {
-  display: flex;
+  display: block;
   align-items: center;
   height: 596px;
   position: relative;
@@ -92,7 +93,9 @@ body {
   min-height: 72px;
 }
 
-.first-line, .second-line, .third-line {
+.first-line,
+.second-line,
+.third-line {
   width: 100%;
 }
 
@@ -102,10 +105,12 @@ body {
 }
 
 @media only screen and (max-width: 992px) {
-  .mobile-view, .first-line {
+  .mobile-view,
+  .first-line {
     display: none !important;
   }
-  .second-line, .third-line {
+  .second-line,
+  .third-line {
     width: 100%;
   }
   .address-list-card-main {
