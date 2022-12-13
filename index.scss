@@ -61,7 +61,7 @@ body {
     background-color: $pink-color !important;
     border-color: $pink-color !important;
     font-family: $font-stack !important;
-    width: 154px ;
+    width: 154px;
     height: 49px;
 }
 
@@ -177,7 +177,7 @@ body {
     border: 0px !important;
 }
 
-.btn-outline-danger{
+.btn-outline-danger {
     background-color: white !important;
     border-color: $border-blue !important;
     color: $border-blue !important;
@@ -186,12 +186,12 @@ body {
 }
 
 // .btn:hover .btn::after .btn:active .btn::selection{
-    
+
 // }
 
 @media only screen and (max-width: 992px) {
 
-    .search-icon{
+    .search-icon {
         left: 65%;
         top: 25%;
     }
@@ -237,7 +237,7 @@ body {
         grid-template-columns: 1fr;
     }
 
-    .search-icon{
+    .search-icon {
         left: 60%;
         top: 25%;
     }
