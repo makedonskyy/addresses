@@ -121,26 +121,72 @@ body {
     fill: #D9D9D9;
 }
 
-.text-hover:hover {
-    font-weight: bold;
-    font-size: 18px;
+.text-hover {
+    position: relative;
+    display: inline-block;
 }
 
-.text-hover:hover::after {
-    content: attr(data-title);
-    display:flex;
-    text-align: center;
-    border-radius: 10%;
-    font-family: $font-stack;
-    color: $blue-text;
-    padding: 2px;
-    z-index: 1;
-    font-size: 14px;
-    height: 24px;
-    width: 129px;
+.text-hover .tooltiptext {
+    height: 30px;
+    width: 139px;
     background-color: white;
-    border: 1px solid $blue-text;
+    color: $blue-text;
+    text-align: center;
+    border-radius: 6px;
+    border: 1px solid #0291EB;
+    padding: 3px;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+    font-size: 16px;
+    font-weight: lighter !important;
 }
+
+// .tooltiptext {
+//     font-size: 14px;
+//     font-weight: lighter;
+// }
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+}
+
+.text-hover:hover .tooltiptext {
+    font-weight: bold;
+    visibility: visible;
+    opacity: 1;
+}
+
+
+
+
+
+
+// .text-hover:hover::after {
+//     content: attr(data-title);
+//     display:flex;
+//     text-align: center;
+//     border-radius: 10%;
+//     font-family: $font-stack;
+//     color: $blue-text;
+//     padding: 2px;
+//     z-index: 5;
+//     font-size: 14px;
+//     height: 24px;
+//     width: 129px;
+//     background-color: white;
+//     border: 1px solid $blue-text;
+// }
 
 
 @media only screen and (max-width: 992px) {
