@@ -61,8 +61,8 @@ body {
     background-color: $pink-color !important;
     border-color: $pink-color !important;
     font-family: $font-stack !important;
-    width: 154px !important;
-    height: 49px !important;
+    width: 154px ;
+    height: 49px;
 }
 
 .big-input {
@@ -191,6 +191,11 @@ body {
 
 @media only screen and (max-width: 992px) {
 
+    .search-icon{
+        left: 65%;
+        top: 25%;
+    }
+
     .mobile-view,
     .first-line {
         display: none !important;
@@ -230,6 +235,11 @@ body {
 
     .address-block-card-main {
         grid-template-columns: 1fr;
+    }
+
+    .search-icon{
+        left: 60%;
+        top: 25%;
     }
 
 }

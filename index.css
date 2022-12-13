@@ -51,8 +51,8 @@ body {
   background-color: #FF1784 !important;
   border-color: #FF1784 !important;
   font-family: "Circe" !important;
-  width: 154px !important;
-  height: 49px !important;
+  width: 154px;
+  height: 49px;
 }
 
 .big-input {
@@ -170,12 +170,15 @@ body {
   background-color: white !important;
   border-color: #039BE5 !important;
   color: #039BE5 !important;
-  font-size: 24px !important;
   width: 384px;
   height: 68px;
 }
 
 @media only screen and (max-width: 992px) {
+  .search-icon {
+    left: 65%;
+    top: 25%;
+  }
   .mobile-view,
   .first-line {
     display: none !important;
@@ -206,6 +209,10 @@ body {
   }
   .address-block-card-main {
     grid-template-columns: 1fr;
+  }
+  .search-icon {
+    left: 60%;
+    top: 25%;
   }
 }
 
