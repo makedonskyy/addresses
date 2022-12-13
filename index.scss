@@ -10,6 +10,7 @@ $back-color: #EDF2F6;
 $font-stack: 'Circe';
 $blue-text: #0291EB;
 $pink-color: #FF1784;
+$border-blue:#039BE5;
 
 body {
     font-family: $font-stack !important;
@@ -174,6 +175,14 @@ body {
     height: 20px;
     order: -1;
     border: 0px !important;
+}
+
+.btn-outline-danger{
+    background-color: white !important;
+    border-color: $border-blue !important;
+    color: $border-blue !important;
+    width: 384px;
+    height: 68px;
 }
 
 // .btn:hover .btn::after .btn:active .btn::selection{

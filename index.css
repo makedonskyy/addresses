@@ -166,6 +166,15 @@ body {
   border: 0px !important;
 }
 
+.btn-outline-danger {
+  background-color: white !important;
+  border-color: #039BE5 !important;
+  color: #039BE5 !important;
+  font-size: 24px !important;
+  width: 384px;
+  height: 68px;
+}
+
 @media only screen and (max-width: 992px) {
   .mobile-view,
   .first-line {
