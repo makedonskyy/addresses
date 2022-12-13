@@ -152,6 +152,19 @@ body {
   opacity: 1;
 }
 
+.search {
+  display: inline-flex;
+}
+
+.search-icon {
+  position: absolute;
+  left: 69%;
+  top: 15%;
+  width: 20px;
+  height: 20px;
+  order: -1;
+}
+
 @media only screen and (max-width: 992px) {
   .mobile-view,
   .first-line {
