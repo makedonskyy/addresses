@@ -169,11 +169,16 @@ body {
 .search-icon {
     position: absolute;
     left: 69%;
-    top: 15%;
+    top: 25%;
     width: 20px;
     height: 20px;
     order: -1;
+    border: 0px !important;
 }
+
+// .btn:hover .btn::after .btn:active .btn::selection{
+    
+// }
 
 @media only screen and (max-width: 992px) {
 
