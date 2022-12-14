@@ -11,11 +11,17 @@ $font-stack: 'Circe';
 $blue-text: #0291EB;
 $pink-color: #FF1784;
 $border-blue:#039BE5;
+$grey-color: #C4C4C4;
+$telegram-color: #36ACF2;
+$vk-color: #467FC2;
+$ok-color: #EC8131;
+$yandex-color: #000000;
+
+
 
 body {
     font-family: $font-stack !important;
     background-color: $back-color !important;
-
 }
 
 .blue-text {
@@ -95,7 +101,6 @@ body {
 }
 
 .address-block-card-one {
-    // min-width: 100%;
     border: 1px solid $blue-text;
 }
 
@@ -185,9 +190,25 @@ body {
     height: 68px;
 }
 
-// .btn:hover .btn::after .btn:active .btn::selection{
+#telegram, #vk, #ok, #yandex {
+    fill: $grey-color;
+}
 
-// }
+#telegram:hover {
+    fill: $telegram-color;
+}
+
+#vk:hover {
+    fill: $vk-color;
+}
+
+#ok:hover {
+    fill: $ok-color;
+}
+
+#yandex:hover {
+    fill: $yandex-color;
+}
 
 @media only screen and (max-width: 992px) {
 
